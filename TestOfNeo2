@@ -32,6 +32,12 @@ public class TestOfNeo2 {
         {
             v+=Answer.get(i);
         }
+        if (v>10000)
+        {
+            System.out.println("Ваше число больше 10000 в 10-чной системе!");
+        }
+        else
         System.out.println("Введенное число в двоичной системе: "+v);
 
        }
+}
